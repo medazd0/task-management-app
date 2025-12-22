@@ -1,63 +1,53 @@
+# 🚀 Task Management System - Technical Test
 
+> **End of Studies Internship 2026 - Hahn Software Morocco**  
+> Developed by **Mohamed Azoud** | Portfolio: [azoud-mohamed.vercel.app](https://azoud-mohamed.vercel.app/)
 
-🚀 Task Management System - Technical Test
+---
 
-End of Studies Internship 2026 - Hahn Software Morocco
-Developed by Mohamed Azoud | Portfolio: azoud-mohamed.vercel.app
+## 📹 Demo Video
 
-📹 Demo Video
+**[🎥 Watch the Demo Video Here](YOUR_VIDEO_LINK_HERE)**
 
-🎥 Watch the Demo Video Here
+*2-minute walkthrough showing all features: Authentication, Projects, Tasks, Progress Tracking*
 
-2-minute walkthrough showing all features: Authentication, Projects, Tasks, Search & Filters
+---
 
-🎯 What I Built
+## 🎯 What I Built
 
-A complete full-stack task management application where users can:
+A complete **full-stack task management application** where users can:
+- ✅ Register and login with JWT authentication
+- ✅ Create and manage projects
+- ✅ Add tasks to projects with due dates
+- ✅ Mark tasks as completed
+- ✅ Track progress with visual indicators
+- ✅ View complete API documentation with Swagger
 
-✅ Register and login with JWT authentication
+---
 
-✅ Create and manage projects
+## 🛠️ Technologies Used
 
-✅ Add tasks to projects with due dates
+### Backend
+- **Spring Boot 3.2** - RESTful API
+- **Spring Security + JWT** - Secure authentication
+- **MySQL** - Database
+- **Swagger/OpenAPI** - Interactive API documentation
+- **JUnit 5** - Unit testing (22 tests implemented)
 
-✅ Mark tasks as completed
+### Frontend
+- **React 18** - Modern UI library
+- **Tailwind CSS** - Responsive design
+- **Axios** - HTTP client
 
-✅ Track progress with visual indicators
+### DevOps
+- **Docker + Docker Compose** - Complete containerization
+- **Maven** - Build automation
 
-✅ BONUS: Search and filter tasks by keyword, status, and date
+---
 
-🛠️ Technologies Used
-Backend
+## 🏗️ Architecture
 
-Spring Boot 3.2 - RESTful API
-
-Spring Security + JWT - Secure authentication
-
-MySQL - Database
-
-JUnit 5 - Unit testing (22 tests implemented)
-
-Frontend
-
-React 18 - Modern UI library
-
-Tailwind CSS - Responsive design
-
-Axios - HTTP client
-
-DevOps
-
-Docker + Docker Compose - Complete containerization
-
-Maven - Build automation
-
-🏗️ Architecture
-code
-Code
-download
-content_copy
-expand_less
+```
 project-task-manager/
 ├── backend/
 │   ├── src/main/java/com/taskmanagement/
@@ -81,48 +71,51 @@ project-task-manager/
 │   │   └── services/       # API integration
 │   └── Dockerfile
 └── docker-compose.yml      # Full stack orchestration
-🚀 Quick Start with Docker (Recommended)
-Prerequisites
+```
 
-Docker & Docker Compose installed
+---
 
-Ports 3000, 8080, 3306 available
+## 🚀 Quick Start with Docker (Recommended)
 
-Run Everything in 2 Commands
-code
-Bash
-download
-content_copy
-expand_less
+### Prerequisites
+- Docker & Docker Compose installed
+- Ports 3000, 8080, 3306 available
+
+### Run Everything in 2 Commands
+
+```bash
 # 1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/project-task-manager.git
 cd project-task-manager
 
 # 2. Start the application
 docker-compose up -d
+```
 
-That's it! 🎉
+**That's it!** 🎉
 
-Frontend: http://localhost:3000
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:8080
+- **Swagger Documentation**: http://localhost:8080/swagger-ui.html
+- MySQL: localhost:3306
 
-Backend API: http://localhost:8080
+### Test Credentials
 
-MySQL: localhost:3306
+| Email | Password | Role |
+|-------|----------|------|
+| admin@hahn.ma | admin123 | Admin |
+| candidate@hahn.ma | test2026 | User |
 
-Test Credentials
-Email	Password	Role
-admin@hahn.ma	admin123	Admin
-candidate@hahn.ma	test2026	User
-💻 Manual Installation (Without Docker)
+---
+
+## 💻 Manual Installation (Without Docker)
+
 <details>
 <summary>Click to expand manual setup instructions</summary>
 
-Backend Setup
-code
-Bash
-download
-content_copy
-expand_less
+### Backend Setup
+
+```bash
 # 1. Create MySQL database
 mysql -u root -p
 CREATE DATABASE task_manager_db;
@@ -135,230 +128,207 @@ cd backend/src/main/resources
 cd backend
 mvn clean install
 mvn spring-boot:run
+```
 
 Backend runs on: http://localhost:8080
 
-Frontend Setup
-code
-Bash
-download
-content_copy
-expand_less
+### Frontend Setup
+
+```bash
 cd frontend
 npm install
-npm run dev
+npm start
+```
 
 Frontend runs on: http://localhost:3000
 
 </details>
 
-✅ What I Implemented
-Required Features ✓
+---
 
-JWT Authentication (login/register)
+## ✅ What I Implemented
 
-Create, Read, Update, Delete Projects
+### Required Features ✓
+- [x] JWT Authentication (login/register)
+- [x] Create, Read, Update, Delete Projects
+- [x] Create, Read, Update, Delete Tasks
+- [x] Mark tasks as completed
+- [x] Progress tracking (% completed)
+- [x] Clean architecture with proper layering
 
-Create, Read, Update, Delete Tasks
+### Bonus Features ✓
+- [x] **Docker Compose** - One command deployment
+- [x] **Unit Tests** - 22 tests covering services and security
+- [x] **Swagger Documentation** - Interactive API documentation with OpenAPI
+- [x] **Modern UI** - Tailwind CSS with animations
+- [x] **Error Handling** - Proper validation and error messages
 
-Mark tasks as completed
+---
 
-Progress tracking (% completed)
+## 📚 API Documentation
 
-Clean architecture with proper layering
+I implemented **Swagger/OpenAPI** for complete API documentation. Once the application is running, you can access interactive API documentation at:
 
-Bonus Features ✓
+**http://localhost:8080/swagger-ui.html**
 
-Docker Compose - One command deployment
+The Swagger UI allows you to:
+- 📖 View all available endpoints
+- 🔍 See request/response schemas
+- ✅ Test API calls directly from the browser
+- 🔐 Authenticate with JWT tokens
 
-Unit Tests - 22 tests covering services and security
+This makes it easy for developers to understand and integrate with the API.
 
-Search & Filters - Search tasks, filter by status/date
+---
 
-Modern UI - Tailwind CSS with animations
+## 🧪 Tests
 
-Error Handling - Proper validation and error messages
+I implemented **22 unit tests** covering critical business logic:
 
-🧪 Tests
-
-I implemented 22 unit tests covering critical business logic:
-
-code
-Bash
-download
-content_copy
-expand_less
+```bash
 # Run all tests
 cd backend
 mvn test
-Test Coverage
+```
 
-✅ AuthService (3 tests) - Login, Register, JWT
+### Test Coverage
+- ✅ **AuthService** (3 tests) - Login, Register, JWT
+- ✅ **ProjectService** (7 tests) - CRUD operations
+- ✅ **TaskService** (8 tests) - CRUD + Toggle completion
+- ✅ **JwtUtil** (4 tests) - Token generation/validation
 
-✅ ProjectService (7 tests) - CRUD operations
+**Result:** All 22 tests pass ✅
 
-✅ TaskService (8 tests) - CRUD + Toggle completion
+---
 
-✅ JwtUtil (4 tests) - Token generation/validation
+## 📊 API Endpoints
 
-Result: All 22 tests pass ✅
-
-📊 API Endpoints
-Authentication
-code
-Http
-download
-content_copy
-expand_less
+### Authentication
+```http
 POST /api/auth/register  # Register new user
 POST /api/auth/login     # Login (returns JWT)
-Projects (Protected)
-code
-Http
-download
-content_copy
-expand_less
+```
+
+### Projects (Protected)
+```http
 GET    /api/projects           # Get all projects
 POST   /api/projects           # Create project
 GET    /api/projects/{id}      # Get project details
 PUT    /api/projects/{id}      # Update project
 DELETE /api/projects/{id}      # Delete project
-Tasks (Protected)
-code
-Http
-download
-content_copy
-expand_less
+```
+
+### Tasks (Protected)
+```http
 GET    /api/projects/{id}/tasks              # Get project tasks
 POST   /api/projects/{id}/tasks              # Create task
 PUT    /api/projects/{id}/tasks/{taskId}     # Update task
 PATCH  /api/projects/{id}/tasks/{taskId}     # Toggle completion
 DELETE /api/projects/{id}/tasks/{taskId}     # Delete task
-GET    /api/projects/{id}/tasks/search       # Search & filter
-🎨 Screenshots
-Login Page
+```
 
-![alt text](./screenshots/login.png)
+**💡 Tip:** Use Swagger UI at `http://localhost:8080/swagger-ui.html` to test these endpoints interactively!
 
-Modern login interface with Hahn Software branding
+---
 
-Dashboard
+## 🔐 Security
 
-![alt text](./screenshots/dashboard.png)
+- ✅ JWT token-based authentication
+- ✅ Password hashing with BCrypt
+- ✅ Protected API routes
+- ✅ CORS configuration
+- ✅ Input validation
+- ✅ SQL injection protection (JPA)
 
-Project list with progress bars
+---
 
-Task Management
+## 📈 Project Statistics
 
-![alt text](./screenshots/tasks.png)
+- **Total Lines of Code:** ~3,500
+- **Backend Components:** 25+ classes
+- **Frontend Components:** 15+ components
+- **API Endpoints:** 11
+- **Unit Tests:** 22 (Services + Security)
+- **Development Time:** 3 days
 
-Create, complete, and filter tasks
+---
 
-🔐 Security
+## 🎯 Technical Decisions
 
-✅ JWT token-based authentication
-
-✅ Password hashing with BCrypt
-
-✅ Protected API routes
-
-✅ CORS configuration
-
-✅ Input validation
-
-✅ SQL injection protection (JPA)
-
-📈 Project Statistics
-
-Total Lines of Code: ~3,500
-
-Backend Components: 25+ classes
-
-Frontend Components: 15+ components
-
-API Endpoints: 12
-
-Unit Tests: 22 (Services + Security)
-
-Development Time: 3 days
-
-🎯 Technical Decisions
-Why Spring Boot?
-
+### Why Spring Boot?
 Professional enterprise framework with excellent security and testing support.
 
-Why React + Tailwind?
-
+### Why React + Tailwind?
 Modern stack for rapid UI development with excellent performance.
 
-Why Docker?
-
+### Why Docker?
 Ensures "works on my machine" becomes "works everywhere" - production-ready deployment.
 
-Why Unit Tests?
+### Why Swagger?
+Provides clear, interactive API documentation that makes integration easier for other developers.
 
+### Why Unit Tests?
 Tests ensure reliability and make future changes safer. Focused on critical business logic first.
 
-🚧 Future Improvements
+---
+
+## 🚧 Future Improvements
 
 After internship submission, I plan to add:
+- [ ] Integration tests (Controllers + Repositories)
+- [ ] Pagination for large datasets
+- [ ] Email notifications for due tasks
+- [ ] Task assignment to team members
+- [ ] Dark mode theme
 
-Integration tests (Controllers + Repositories)
+---
 
-Pagination for large datasets
+## 👨‍💻 About Me
 
-Email notifications for due tasks
-
-Task assignment to team members
-
-Dark mode theme
-
-👨‍💻 About Me
-
-Mohamed Azoud
+**Mohamed Azoud**  
 Full-Stack Developer | Spring Boot & React Enthusiast
 
-🌐 Portfolio: azoud-mohamed.vercel.app
+- 🌐 Portfolio: [azoud-mohamed.vercel.app](https://azoud-mohamed.vercel.app/)
+- 💼 LinkedIn: [mohamed-azoud-82413727a](https://www.linkedin.com/in/mohamed-azoud-82413727a/)
+- 📧 Email: m.azoud01@gmail.com
+- 📱 Phone: +212 637-284194
+- 🐙 GitHub: [medazd0](https://github.com/medazd0)
 
-💼 LinkedIn: [Your LinkedIn]
-
-📧 Email: [your.email@example.com]
-
-📱 Phone: [Your Phone]
-
-Why Hahn Software?
+### Why Hahn Software?
 
 I'm passionate about building robust, scalable applications. This project demonstrates my ability to:
-
-Design clean architectures
-
-Write testable code
-
-Deploy containerized applications
-
-Deliver complete solutions under deadline
+- Design clean architectures
+- Write testable code
+- Deploy containerized applications
+- Create comprehensive documentation
+- Deliver complete solutions under deadline
 
 I'm excited about the opportunity to learn from experienced developers at Hahn Software Morocco and contribute to real-world projects.
 
-📝 Submission Details
+---
 
-Submission Date: December 24, 2025
+## 📝 Submission Details
 
-Repository: [GitHub Link]
+- **Submission Date:** December 24, 2025
+- **Repository:** [GitHub Link]
+- **Demo Video:** [Video Link]
+- **Development Duration:** 3 days
+- **Status:** ✅ Complete and Tested
 
-Demo Video: [Video Link]
+---
 
-Development Duration: 3 days
-
-Status: ✅ Complete and Tested
-
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 Thank you to Hahn Software Morocco for this opportunity to demonstrate my skills. I'm looking forward to discussing this project and the internship in detail.
 
+---
 
+## 📄 License
 
+This project was developed as part of the Hahn Software Morocco technical assessment.
 
+---
 
-Developed with ❤️ by Mohamed Azoud
+**⭐ If you found this project interesting, please consider starring it on GitHub!**
 
+*Developed with ❤️ by Mohamed Azoud*
