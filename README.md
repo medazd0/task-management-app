@@ -7,7 +7,7 @@
 
 ## 📹 Demo Video
 
-**[🎥 Watch the Demo Video Here](YOUR_VIDEO_LINK_HERE)**
+**[🎥 Watch the Demo Video Here]([YOUR_VIDEO_LINK_HERE](https://drive.google.com/file/d/1YVV493VFusod5DT0g4r-OsZ3hHOzmbQC/view?usp=sharing))**
 
 *2-minute walkthrough showing all features: Authentication, Projects, Tasks, Progress Tracking*
 
@@ -332,3 +332,4 @@ This project was developed as part of the Hahn Software Morocco technical assess
 **⭐ If you found this project interesting, please consider starring it on GitHub!**
 
 *Developed with ❤️ by Mohamed Azoud*
+
