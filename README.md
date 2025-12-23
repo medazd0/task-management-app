@@ -4,12 +4,12 @@
 > Developed by **Mohamed Azoud** | Portfolio: [azoud-mohamed.vercel.app](https://azoud-mohamed.vercel.app/)
 
 ---
-
 ## 📹 Demo Video
 
-**[🎥 Watch the Demo Video Here]([https://drive.google.com/file/d/1YVV493VFusod5DT0g4r-OsZ3hHOzmbQC/view?usp=sharing]())**
+**[🎥 Watch the Demo Video Here](https://drive.google.com/file/d/1YVV493VFusod5DT0g4r-OsZ3hHOzmbQC/view?usp=sharing)**
 
 *2-minute walkthrough showing all features: Authentication, Projects, Tasks, Progress Tracking*
+
 
 ---
 
@@ -332,4 +332,5 @@ This project was developed as part of the Hahn Software Morocco technical assess
 **⭐ If you found this project interesting, please consider starring it on GitHub!**
 
 *Developed with ❤️ by Mohamed Azoud*
+
 
