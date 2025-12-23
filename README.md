@@ -103,8 +103,8 @@ docker-compose up -d
 
 | Email | Password | Role |
 |-------|----------|------|
-| admin@hahn.ma | admin123 | Admin |
-| candidate@hahn.ma | test2026 | User |
+| admin@example.com | admin123 | Admin |
+| user@example.com | user123 | User |
 
 ---
 
@@ -332,5 +332,6 @@ This project was developed as part of the Hahn Software Morocco technical assess
 **⭐ If you found this project interesting, please consider starring it on GitHub!**
 
 *Developed with ❤️ by Mohamed Azoud*
+
 
 
