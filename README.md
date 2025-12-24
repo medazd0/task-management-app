@@ -310,8 +310,8 @@ I'm excited about the opportunity to learn from experienced developers at Hahn S
 ## 📝 Submission Details
 
 - **Submission Date:** December 24, 2025
-- **Repository:** [GitHub Link]
-- **Demo Video:** [Video Link]
+- **Repository:** [[GitHub Link](https://github.com/medazd0/task-management-app.git)]
+- **Demo Video:** [[Video Link](https://drive.google.com/file/d/1YVV493VFusod5DT0g4r-OsZ3hHOzmbQC/view?usp=sharing)]
 - **Development Duration:** 3 days
 - **Status:** ✅ Complete and Tested
 
@@ -332,6 +332,7 @@ This project was developed as part of the Hahn Software Morocco technical assess
 **⭐ If you found this project interesting, please consider starring it on GitHub!**
 
 *Developed with ❤️ by Mohamed Azoud*
+
 
 
 
